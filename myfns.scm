@@ -1,3 +1,4 @@
+; Rita Brokhman.1
 ; myfns.scm
 ; Project 6 - PLAN interpreter
 ; Supports: planProg, planAdd, planSub, planMul, planIf, planLet, planFunction, function calls
