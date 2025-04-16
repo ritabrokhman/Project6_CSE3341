@@ -1,4 +1,4 @@
-#!/usr/bin/env scheme-srfi-7
+; #!/usr/bin/env scheme-srfi-7
 
 (program
   (requires srfi-34 srfi-78)

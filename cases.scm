@@ -19,7 +19,11 @@
 (define c8 '(planProg (planLet x (planSub 0 (planLet x 10 x)) (planAdd x (planLet x 1 (planAdd x x))))))
 (define c9 '(planProg (planLet x (planSub 0 (planAdd 10 11)) (planLet y x (planMul x y)))))
 (define c10 '(planProg (planIf (planAdd 0 1) (planLet x 10 x) (planLet x 15 x))))
-
+; Extra Credit Test Cases
+(define c11 '(planProg (planLet a (planFunction b (planAdd b b)) (a 5))))
+(define c12 '(planProg (planLet a (planFunction b (planAdd b b)) (planLet a 1 (planMul a a)))))
+(define c13 '(planProg (planLet square (planFunction x (planMul x x)) (planLet double (planFunction y (planAdd y y)) (planAdd (square 3) (double 4))))))
+(define c14 '(planProg (planLet const5 (planFunction x 5) (const5 999))))
 
 
 
@@ -33,6 +37,11 @@
 (define e8 -8)
 (define e9 441)
 (define e10 10)
+; Extra Credit Test Cases
+(define e11 10)
+(define e12 1)
+(define e13 17)
+(define e14 5)
 
 
 
